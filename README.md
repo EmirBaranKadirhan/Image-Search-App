@@ -17,4 +17,9 @@ Bu proje, kullanıcıların anahtar kelimelerle resim araması yapabileceği bir
 4. Kullanıcı, "Temizle" butonuna tıklayarak arama kutusunu ve mevcut görselleri temizleyebilir. Ardından yeni bir anahtar kelime yazıp tekrar arama yapabilir.
 
 
+![Uygulama Ici Gorsel 1](img/gorselBulmaUygulamaIciResim1.PNG)
+
+
+![Uygulama Ici Gorsel 2](img/gorselBulmaUygulamaIciResim2.PNG)
+
 
