@@ -1,0 +1,82 @@
+body{
+    background-color: #cacaca
+}
+
+.form-wrapper{                          /* En yukaridaki kapsayici div'e parent element oldugu icin display yapisini flex yaptik !!! */
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#form{
+    width: 75%;                             
+    
+}
+
+#aramaInput{
+    width: 100%;                          /* yukarida genisligini ayarladigimiz form'un tamamini kaplayacak sekilde input kismini ayarladik ve ortaladik*/
+    padding: 10px 0px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+
+.button-wrapper{
+    display: flex;                        /* butonlarin kapsayici div'inin display yapisini flex'e cevirdik ve butonlari ortaladik */
+    justify-content: center;
+}
+
+
+#aramaButon{
+    padding: 5px 50px;
+    margin: 5px 10px;                       /* arama butonunun duzenlemesini yaptik */
+    border-radius: 5px;
+    background-color: #07a150;
+    color: white;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 3px 5px; 
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#aramaButon:hover{
+    background-color: #026926;                       /* arama butonunun uzerine geldigimizde nasil goruneceginin duzenlemesini yaptik */
+    box-shadow: rgba(0, 0, 0, 0.7) 2px 5px 10px;
+}
+
+#temizleButon{
+    padding: 5px 50px;
+    margin: 5px 10px;
+    border-radius: 5px;                                 
+    background-color: #ec831f;
+    color: white;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 3px 5px;
+}
+
+#temizleButon:hover{                                    /* temizle butonunun uzerine geldigimizde nasil goruneceginin duzenlemesini yaptik */
+    background-color: #b16014 ;
+    box-shadow: rgba(0, 0, 0, 0.7) 2px 5px 10px;
+}
+
+
+.imageList-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+
+
+.imageList-wrapper > .card{
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 5px 8px;
+}
